@@ -1,0 +1,41 @@
+Print Diamond
+=============
+
+Write a program called PrintDiamond.java which will ask the user to enter a positive odd integer n that is between 3 and 19.
+
+The program will use this information to print out a diamond shape of asterisks (ie *) shown below where n is the
+width of a diamond (ie number of asterisks in the central line). 
+ 
+The program must be written in Java should be compiled and run as described below;
+ 
+>javac PrintDiamond.java
+ 
+>java PrintDiamond
+Enter the diamond width, which must be a positive odd integer: 3
+ 
+   *
+  * *
+ * * *
+  * *
+   *
+ 
+>java PrintDiamond
+Enter the diamond width, which must be a positive odd integer: 9
+ 
+        * 
+       * * 
+      * * * 
+     * * * * 
+    * * * * * 
+   * * * * * * 
+  * * * * * * * 
+ * * * * * * * * 
+* * * * * * * * * 
+ * * * * * * * * 
+  * * * * * * * 
+   * * * * * * 
+    * * * * * 
+     * * * * 
+      * * * 
+       * * 
+        * 
