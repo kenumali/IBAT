@@ -1,0 +1,74 @@
+DNA Sequence
+------------
+
+Write a program called DNA_Sequence.java that will read in a dna sequence for example GTTCAG .
+
+Then the program will search for this dna sequence in a String called dnaDatabase.
+
+It will print out the characters that occur directly before and after this sequence whenever it occurs
+in the dnaDatabase String.
+
+
+String dnaDatabase =  "CCTGTATTAGGTTCAGAATTCGTTCAGCAGCAGATTCGATTAGCTTTACAACAATTCAATA"+
+                      "AAATAGCTTCGCGCTAAATTTTTAACTTTTCTCTGTCGTCGCACAATCGACTTTCTCTGTT"+
+                      "TTCTTGTTCAGGGGTTTACCGGAATTGTTTCTGCTGCGATGAGGTATTGCTCGTCAGCCTG"+
+                      "AGGCTGAAAATAAAATCCGTGGTCACACCCAATAAGTTAGAGAGAGTACTTTGACTTGGAG"+
+                      "CTGGAGGAATTTGACATAGTCGAGTTCAGTTCTTCTCCAAGACGCATCCACGTGAACCGTT"+
+                      "GTAACTATGTTCTGTGCCCACACCAAAAAAACTTTCCACGTGAACCGAAAACGAAAGTCTT"+
+                      "TGGTTTTAATCAATAAGTGCTCTCTTCTCGGAGAGAGAAGGTGGGCTGCTTGTCTGCCGAT"+
+                      "GTACTTTATTAAATCCAATAACCACACCAAAAAAACTTTCCACGTGTGAACTATACTCCAA"+
+                      "AAACGAAGTATTGGTTTATCATAATCTGAAAAGTGCAAAGAACGATGATGATGATGATAGA"+
+                      "GGAACCTGAGCAGCCATGTCTGAACCTATAGCGTATTGGTCGTCGTGCGACTAAATTAGGT"+
+                      "AAAAAAGTAGTTCTAAGAGATTTTGATGATTCAATGCAAAGTTCTATTAATCGTTCAATTG";
+
+note: the String variable dnaDatabase can also be a character array.
+
+DNA_Sequence_input.txt
+----------------------
+GTTCAG
+
+If the input file was that shown above and the program was written in java it would be compiled
+and run as described below;
+
+>javac DNA_Sequence.java
+
+>java DNA_Sequence < DNA_Sequence_input.txt
+G A
+C C
+T G
+A T
+
+or
+
+>java p2 < DNA_Sequence_input.txt > DNA_Sequence_output.txt
+
+when you open the DNA_Sequence_output.txt file it should contain the text below the dashed lines;
+
+DNA_Sequence_output.txt
+------------------------
+G A
+C C
+T G
+A T
+
+------------------------------------------------------------------------------------------
+To check this (using Notepad++) select  Search -> Find, Find What GTTCAG
+
+CCTGTATTAG GTTCAG AATTC GTTCAG CAGCAGATTCGATTAGCTTTACAACAATTCAATA
+
+AAATAGCTTCGCGCTAAATTTTTAACTTTTCTCTGTCGTCGCACAATCGACTTTCTCTGTT
+
+TTCTT GTTCAG GGGTTTACCGGAATTGTTTCTGCTGCGATGAGGTATTGCTCGTCAGCCTG
+
+AGGCTGAAAATAAAATCCGTGGTCACACCCAATAAGTTAGAGAGAGTACTTTGACTTGGAG
+
+CTGGAGGAATTTGACATAGTCGA GTTCAG TTCTTCTCCAAGACGCATCCACGTGAACCGTT
+
+you can see below the dna sequence with letters that occur before and after it.
+G GTTCAG A
+C GTTCAG C
+T GTTCAG G
+A GTTCAG T
+
+
+

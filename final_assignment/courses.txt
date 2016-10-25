@@ -1,0 +1,16 @@
+Maths 35
+Computing 125
+Stats 15
+Physics 27
+Chemistry 29
+French 54
+Engineering 53
+German 20
+Biology 56
+Law 30
+Politics 21
+Business 156
+History 42
+Philosophy 17
+Architecture 28
+Medicine 51
