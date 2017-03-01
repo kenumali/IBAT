@@ -2,7 +2,7 @@
 Contains files and codes during my short course in IBAT
 
 You can test my codes using Command Prompt
-- press Shift+Right Click
+- press Shift+Right Click in the folder
 - Select 'Open command window here'
 - Compile it using javac 'java file you want to compile'.java
 - Run the file using java 'java file you want to run'
