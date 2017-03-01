@@ -2,12 +2,13 @@
 Contains files and codes during my short course in IBAT
 
 You can test my codes using Command Prompt
--press Shift+Right Click
--Select 'Open command window here'
--Compile it using javac 'java file you want to compile'.java
--Run the file using java 'java file you want to run'
+- press Shift+Right Click
+- Select 'Open command window here'
+- Compile it using javac 'java file you want to compile'.java
+- Run the file using java 'java file you want to run'
 
 Program's Description inside the final_assignment folder:
+
 1. AverageNumberOfStudents.java
   - reads a text file called 'course.txt' that contains information on courses and the number of students enrolled
   - add all the number of students
